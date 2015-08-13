@@ -1,0 +1,33 @@
+Chris Ray, Nathan Vahrenberg
+Curt Freeland
+CSE 30264
+
+Project 3
+
+Files in Archive:
+	"client" directory:
+		chat.c
+		ding.wav
+		makefile
+	"server" directory:
+		chatd.c
+		makefile
+	README
+
+
+Compile Instructions:
+Go to each directory and simply type "make".  Type "make clean" to remove compiled binaries.
+
+
+Execution Instructions:
+Client:  ./p2p [studentmachine]:[portnumber]		(Should use ./p2p student01.cse.nd.edu:9421 for testing/grading purposes.)
+
+Server:  ./p2pd
+
+
+Added Features:
+"help" command - This command will list all available commands for the client.
+
+"glist" command - This command will list all group members for your current group.
+
+There should be a "ding" sound effect played whenever a message is received.  
